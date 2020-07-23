@@ -10,15 +10,7 @@ public class Matrix {
 		//create an array of arrays for the matrix
 	    int[][] matrix = new int[101][101];
 	    
-	    //fill the matrix with zeroes
-	    for(int i=0; i<101; i++) {
-	    	
-	    	for(int j=0;j<101;j++) {
-	    		matrix[i][j] = 0;
-	    	}
-	    }
-	    
-	    	    
+	    	    	    
 	    //create a list for the prime numbers
 	    ArrayList<Integer> primes = new ArrayList<Integer>();
 	    primes.add(2);
